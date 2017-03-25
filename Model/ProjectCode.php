@@ -6,7 +6,7 @@
  * Time: 01:07
  */
 
-namespace Adevis\Component\Project\Model;
+namespace Miky\Component\Project\Model;
 
 
 class ProjectCode implements ProjectCodeInterface

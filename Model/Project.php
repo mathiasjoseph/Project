@@ -6,14 +6,14 @@
  * Time: 23:07
  */
 
-namespace Adevis\Component\Project\Model;
+namespace Miky\Component\Project\Model;
 
 
-use Adevis\Component\Core\Model\CommonModelInterface;
-use Adevis\Component\Core\Model\CommonModelTrait;
-use Adevis\Component\User\Model\Administrator;
-use Adevis\Component\User\Model\CustomerInterface;
-use Adevis\Component\User\Model\Employee;
+use Miky\Component\Core\Model\CommonModelInterface;
+use Miky\Component\Core\Model\CommonModelTrait;
+use Miky\Component\User\Model\Administrator;
+use Miky\Component\User\Model\CustomerInterface;
+use Miky\Component\User\Model\Employee;
 use Doctrine\Common\Collections\ArrayCollection;
 use Doctrine\Common\Collections\Collection;
 
@@ -67,7 +67,7 @@ class Project implements ProjectInterface, CommonModelInterface
     }
 
     /**
-     * @return \Adevis\Component\User\Model\Employee[]|Collection
+     * @return \Miky\Component\User\Model\Employee[]|Collection
      */
     public function getAssignedEmployees()
     {
@@ -101,7 +101,7 @@ class Project implements ProjectInterface, CommonModelInterface
     }
 
     /**
-     * @param \Adevis\Component\User\Model\Employee[]|Collection $assignedEmployees
+     * @param \Miky\Component\User\Model\Employee[]|Collection $assignedEmployees
      */
     public function setAssignedEmployees($assignedEmployees)
     {
@@ -125,7 +125,7 @@ class Project implements ProjectInterface, CommonModelInterface
     }
 
     /**
-     * @return \Adevis\Component\User\Model\Administrator[]|Collection
+     * @return \Miky\Component\User\Model\Administrator[]|Collection
      */
     public function getAssignedAdministrators()
     {
@@ -159,7 +159,7 @@ class Project implements ProjectInterface, CommonModelInterface
     }
 
     /**
-     * @param \Adevis\Component\User\Model\Administrator[]|Collection $assignedAdministrators
+     * @param \Miky\Component\User\Model\Administrator[]|Collection $assignedAdministrators
      */
     public function setAssignedAdministrators($assignedAdministrators)
     {

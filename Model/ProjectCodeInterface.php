@@ -6,7 +6,7 @@
  * Time: 01:08
  */
 
-namespace Adevis\Component\Project\Model;
+namespace Miky\Component\Project\Model;
 
 
 interface ProjectCodeInterface
